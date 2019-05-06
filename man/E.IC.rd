@@ -15,7 +15,7 @@ E.IC(N, est, type, level)
 \code{\link{E.IC}}
 }
 \details{Returns the confidence interval of estimation of the population total or mean of every sampling design, utilizing the estimated standard error and total in a specified sampling design}
-\value{The function returns a data matrix whose columns correspond to the bands of confidence estimated of estimated population total or mean}
+\value{The function returns a data matrix whose columns correspond to the bands of confidence estimated of population total or mean}
 \author{Daniel de Amaral da Silva \email{silva.daniel86@gmail.com}}
 \references{
 Sarndal, C-E. and Swensson, B. and Wretman, J. (1992), \emph{Model Assisted Survey Sampling}. Springer.}
