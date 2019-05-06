@@ -1,7 +1,6 @@
 Package: TeachingSampling
 Type: Package
-Title: Selection of Samples and Parameter Estimation in Finite
-        Population
+Title: Selection of Samples and Parameter Estimation in Finite Population
 License: GPL (>= 2)
 Version: 3.4.2
 Date: 2018-07-22
