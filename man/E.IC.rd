@@ -1,5 +1,5 @@
-\name{E.IC}
-\alias{E.IC}
+\name{E.CI}
+\alias{E.CI}
 \title{Confidence Interval for Estimation of the Population Total and Mean}
 \description{Computes the Confidence Interval (1-alpha) utilizing Normal Distribution of the population total and mean for an specified sampling}
 \usage{
