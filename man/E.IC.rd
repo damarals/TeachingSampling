@@ -39,7 +39,7 @@ names(data)
 estima <- data.frame(Income, Employees, Taxes)
 est <- E.SI(N,n,estima)
 # Passing the informations to calculate the Confidence Interval to total
-E.IC(N, est, type = 'total', level = 0.95)
+E.CI(N, est, type = 'total', level = 0.95)
 
 ############
 ## Example 2
@@ -61,7 +61,7 @@ names(data)
 estima <- data.frame(Income, Employees, Taxes)
 est <- E.BE(estima,prob)
 # Passing the informations to calculate the Confidence Interval to mean
-E.IC(N, est, type = 'mean', level = 0.95)
+E.CI(N, est, type = 'mean', level = 0.95)
 
 }
 \keyword{survey}
