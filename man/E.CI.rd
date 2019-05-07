@@ -3,7 +3,7 @@
 \title{Confidence Interval for Estimation of the Population Total and Mean}
 \description{Computes the Confidence Interval (1-alpha) utilizing Normal Distribution of the population total and mean for an specified sampling}
 \usage{
-E.IC(N, est, type, level)
+E.CI(N, est, type, level)
 }
 \arguments{
 \item{N}{Population size}
@@ -12,7 +12,7 @@ E.IC(N, est, type, level)
 \item{level}{level of Interval: (1-alpha)}
 }
 \seealso{
-\code{\link{E.IC}}
+\code{\link{E.CI}}
 }
 \details{Returns the confidence interval of estimation of the population total or mean of every sampling design, utilizing the estimated standard error and total in a specified sampling design}
 \value{The function returns a data matrix whose columns correspond to the bands of confidence estimated of population total or mean}
