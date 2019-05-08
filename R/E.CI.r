@@ -11,8 +11,7 @@ E.CI <- function (N, est, type = "total", level = 0.95)
     }
     colnames(est) <- 'Population'
     dimnames(est)[[3]] <- dim_n
-  }
-  else{
+  }else{
     est <- est[,,-1]
   }
   result <- array(NA, c(dim(est)[2], 2, dim(est)[3]))
